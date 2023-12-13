@@ -1,0 +1,21 @@
+/* if you wanna use sticky-top instead of fixed-top, just comment the this line |body::before| */
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+.iconCustom {
+  font-size: 2rem;
+  margin-right: 8px;
+}
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
